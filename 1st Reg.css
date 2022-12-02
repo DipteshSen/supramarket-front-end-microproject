@@ -1,0 +1,111 @@
+*{
+	background: url("new.jpg")repeat;
+	align-items: center;
+}
+
+section.signin{
+	margin-top: 50%;
+	background: rgba(2,25,22,0.1);
+    /*position: relative;*/
+    top: 50%;
+    margin: auto;
+    width: 340px;
+    height: 480px;
+    border-radius: 2%;
+    box-shadow: 0 30px 30px 0 rgba(0, 100, 255, 0.2);
+    text-align: center;
+}
+i{
+	border-right:2px solid grey;
+	border-spacing: 30px;
+	padding-right: 10px;
+}
+div.topic{
+	padding: 20px;
+	background: rgba(0,25,222,0.1);
+	font-family:sans-serif;
+	font-size: 40px;
+	font-weight: 10px;
+	overflow: hidden;
+	color: white;
+	border-color: 2px solid white;
+	border-radius: 5%;
+}
+
+section form div{
+	background: black;
+	color: whitesmoke;
+}
+
+div input{
+	
+padding: 10px 5px;
+border-bottom: 2px solid white;
+border-top: none;
+border-right: none;
+border-left: none;
+box-sizing: 20px;
+color: white;
+font-family: Puritan,sans-serif;
+font-size: 20px;
+background:transparent;
+}
+
+input.lekho{
+padding: px 5px;
+border-bottom: 2px solid white;
+border-top: none;
+width: 200px;
+border-right: none;
+border-left: none;
+box-sizing: 20px;
+color: white;
+font-family: Puritan,sans-serif;
+font-size: 20px;
+background:transparent;	
+margin: 0;
+transition: all 0.3s ease-out;
+}
+
+ input.lekho:hover{
+	margin: 0;
+	background: white;
+	color: black
+}
+
+div.newacc{
+	font-family:'calibri',sans-serif;
+}
+
+.nak{
+	font-size: 20px;
+}
+.kunj{
+	text-decoration: none;
+	color: whitesmoke;
+	font-size: 30px;
+	transition: 0.1s ease-out;
+}
+a:hover{
+	color: red;
+	background: transparent;
+
+}
+}
+
+
+.new{
+	background:black ;
+	color: white;
+	border-radius: 5px;
+	border: 2px solid white;
+	cursor: pointer;
+	padding: 10px ;
+	transition: all 0.3s ease-out;
+}
+
+div input.new:hover{
+	background: ghostwhite;
+	color: grey;
+	border-color: solid red;
+}
